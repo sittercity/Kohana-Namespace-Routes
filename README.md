@@ -20,6 +20,6 @@ Added/Modified Methods
  * Route::factory($uri, $regex = NULL)
  * Route::set($name, $uri, $regex = NULL, $namespace = NULL)
  * Route::get($name, $namespace = NULL)
- * Route::load_namespace($namespace)
- * Route::clear_namespace($namespace)
- * Route::all($flatten = TRUE)
+ * Route::load_namespace($namespace) - Directly injects a namespace into the routing class
+ * Route::clear_namespace($namespace) - Removes a namespace from the routing class
+ * Route::all($flatten = TRUE) - You can get a full named array by passing FALSE.
